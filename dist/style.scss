@@ -1,0 +1,25 @@
+$react-directory-tree-options: () !default;
+
+.react-directory-tree {
+  color: #000;
+  border: 4px dashed #ccc;
+  padding: 20px;
+  user-select: none;
+  &:hover {
+    border-color: #ddd;
+    background: #f3f3f3;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .icon-play {
+    padding: 10px;
+    min-width: 120px;
+    background: url(~assets/images/icon-play.png) left center / 12% no-repeat;
+    &:focus {
+      outline: none;
+    }
+  }
+}
